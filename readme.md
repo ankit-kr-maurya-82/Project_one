@@ -1,2 +1,0 @@
-# Project - Imagedeep
-add fronted
