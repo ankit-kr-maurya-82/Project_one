@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
+import Logo from '../Logo';
 function Footer() {
     return (
         <footer className="bg-white border-y">
@@ -9,7 +9,7 @@ function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                         <h2 className="mr-3 text-lg">
-                                Logo
+                                <Logo />
                                 </h2>
                         </Link>
                     </div>
