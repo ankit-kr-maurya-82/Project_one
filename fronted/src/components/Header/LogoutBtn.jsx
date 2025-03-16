@@ -1,5 +1,5 @@
 import React from 'react'
-import useDispatch from 'react-redux'
+import {useDispatch} from 'react-redux'
 import authService from '../../appwrite/auth'
 import {logout} from '../../store/authSlice'
 
@@ -11,7 +11,9 @@ function LogoutBtn() {
         })
     }
     return (
-       <button className='bg-amber-600 text-amber-50'>Logout</button>
+       <button className='bg-amber-600 text-amber-50'
+       onClick={logoutHandler}
+       >Logout</button>
     )
 }
 

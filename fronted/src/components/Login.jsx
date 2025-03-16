@@ -39,7 +39,7 @@ function Login() {
           Sign in to your account
         </h2>
         <p className="mt-2 text-center text-base text-black">
-          Dont&aps;t have any account?&nbsp;
+          Don't have any account?&nbsp;
           <Link
             to="/signup"
             className="font-medium text-primary transition-all duration-200 hover:underline"
@@ -58,7 +58,7 @@ function Login() {
                 required: true,
                 validate: {
                   matchPatern: (value) =>
-                    /^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/.test(v) ||
+                    /^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/.test(value) ||
                     "Email address must be a valid address",
                 },
               })}

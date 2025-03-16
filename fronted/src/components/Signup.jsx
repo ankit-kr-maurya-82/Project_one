@@ -65,7 +65,7 @@ function Signup() {
                         required: true,
                         validate: {
                           matchPatern: (value) =>
-                            /^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/.test(v) ||
+                            /^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/.test(value) ||
                             "Email address must be a valid address",
                         },
                       })}
