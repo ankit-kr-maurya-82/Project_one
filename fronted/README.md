@@ -15,3 +15,4 @@ Currently, two official plugins are available:
 - npm i appwrite
 - npm i html-react-parser
 - npm i react-hook-form
+npm i @tinymce/tinymce-react
